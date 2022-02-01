@@ -1,0 +1,287 @@
+[
+    {
+        "id": "1",
+        "name": "Personal",
+        "image": "https://i.ibb.co/d0kz3wr/10002.png",
+        "questions": [
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            },
+            {
+                "question": "What are the eligibility criteria for getting an instant loan?",
+                "ans": "Although different lending partners have different eligibility criteria for approving an instant loan, however a few of the eligibility criteria are:• The age of the applicant should be in between 23-57 years.• The applicant must have valid income proof as per the city requirement.• The applicant must be either a Salaried employee, government employee, MNC employee, businessman, or self-employed, such as a doctor, CA, or lawyer.• Applicants with Cash Salary will not be approved"
+            },
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Business",
+        "image": "https://i.ibb.co/wcJZVHM/10003.png",
+        "questions": [
+            {
+                "question": "Am I eligible for the Business Loan?",
+                "ans": "If you are a business owner (SME or big house) or a start-up, and you have a good credit score and all the documents available, you are eligible for the business loan. "
+            },
+            {
+                "question": "I am a woman and a start-up. Will I get the business loan?",
+                "ans": "Yes, many lending partners offer easy and low-interest rates for women entrepreneurs. If you have a good credit score and valid documents, you may get an easy business loan at low-interest rates."
+            },
+            {
+                "question": "What are the benefits of getting a business loan?",
+                "ans": "The perks behind a business loan are immense. You dont need to look for crowdfunding. You get instant money to invest in your business. You can choose flexible EMI and the loan tenure at your convenience. You can use the business loan to buy machinery or equipment for your business. You can hire new talent and expand your business or get other significant resources for your business."
+            },
+            {
+                "question": "What is the minimum time to get an approved business loan?",
+                "ans": "If you apply for a business loan through Rupeezo, you get a call from its  lenders partners within 24 hours. "
+            },
+            {
+                "question": "Am I eligible for the Business Loan?",
+                "ans": "If you are a business owner (SME or big house) or a start-up, and you have a good credit score and all the documents available, you are eligible for the business loan. "
+            },
+            {
+                "question": "I am a woman and a start-up. Will I get the business loan?",
+                "ans": "Yes, many lending partners offer easy and low-interest rates for women entrepreneurs. If you have a good credit score and valid documents, you may get an easy business loan at low-interest rates."
+            },
+            {
+                "question": "What are the benefits of getting a business loan?",
+                "ans": "The perks behind a business loan are immense. You dont need to look for crowdfunding. You get instant money to invest in your business. You can choose flexible EMI and the loan tenure at your convenience. You can use the business loan to buy machinery or equipment for your business. You can hire new talent and expand your business or get other significant resources for your business."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Vehicle",
+        "image": "https://i.ibb.co/f9NBQ1P/10004.png",
+        "questions": [
+            {
+                "question": "What is the best time to apply for a vehicle loan?",
+                "ans": "Anytime is a good time, but December is the best time to buy a new vehicle. Since it is the end of the year, almost all vehicle manufacturers offer various discounts. Also, every year government revises taxes, so buying a new vehicle before the possibility of high taxes applied is always a wise choice. "
+            },
+            {
+                "question": "What is the process to apply for a vehicle loan?",
+                "ans": "At Rupeezo, you just need to visit and fill our application form for a vehicle loan. Our application will automate the entire process digitally, and our lending partners will contact you for the car/2-wheeler loans."
+            },
+            {
+                "question": "Why should I get a Vehicle loan?",
+                "ans": "No matter where you live, in a remote area or an urban city, vehicles are the need of an hour. Especially after the corona pandemic and lockdown, using the public vehicle is not the safest choice. An owned vehicle ensures your mobility anytime without fear of getting infected and other security issues."
+            },
+            {
+                "question": "What is the best time to apply for a vehicle loan?",
+                "ans": "Anytime is a good time, but December is the best time to buy a new vehicle. Since it is the end of the year, almost all vehicle manufacturers offer various discounts. Also, every year government revises taxes, so buying a new vehicle before the possibility of high taxes applied is always a wise choice."
+            },
+            {
+                "question": "What is the process to apply for a vehicle loan?",
+                "ans": "At Rupeezo, you just need to visit and fill our application form for a vehicle loan. Our application will automate the entire process digitally, and our lending partners will contact you for the car/2-wheeler loans."
+            },
+            {
+                "question": "I am a woman and a start-up. Will I get the business loan?",
+                "ans": "Yes, many lending partners offer easy and low-interest rates for women entrepreneurs. If you have a good credit score and valid documents, you may get an easy business loan at low-interest rates."
+            },
+            {
+                "question": "Why should I get a Vehicle loan?",
+                "ans": "No matter where you live, in a remote area or an urban city, vehicles are the need of an hour. Especially after the corona pandemic and lockdown, using the public vehicle is not the safest choice. An owned vehicle ensures your mobility anytime without fear of getting infected and other security issues."
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Medical ",
+        "image": "https://i.ibb.co/N2TpVqt/10005.png",
+        "questions": [
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            },
+            {
+                "question": "What are the eligibility criteria for getting an instant loan?",
+                "ans": "Although different lending partners have different eligibility criteria for approving an instant loan, however a few of the eligibility criteria are:• The age of the applicant should be in between 23-57 years.• The applicant must have valid income proof as per the city requirement.• The applicant must be either a Salaried employee, government employee, MNC employee, businessman, or self-employed, such as a doctor, CA, or lawyer.• Applicants with Cash Salary will not be approved"
+            },
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Wedding",
+        "image": "https://i.ibb.co/mDY9JZB/10006.png",
+        "questions": [
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            },
+            {
+                "question": "What are the eligibility criteria for getting an instant loan?",
+                "ans": "Although different lending partners have different eligibility criteria for approving an instant loan, however a few of the eligibility criteria are:• The age of the applicant should be in between 23-57 years.• The applicant must have valid income proof as per the city requirement.• The applicant must be either a Salaried employee, government employee, MNC employee, businessman, or self-employed, such as a doctor, CA, or lawyer.• Applicants with Cash Salary will not be approved"
+            },
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Education",
+        "image": "https://i.ibb.co/3CHLTry/10007.png",
+        "questions": [
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            },
+            {
+                "question": "What are the eligibility criteria for getting an instant loan?",
+                "ans": "Although different lending partners have different eligibility criteria for approving an instant loan, however a few of the eligibility criteria are:• The age of the applicant should be in between 23-57 years.• The applicant must have valid income proof as per the city requirement.• The applicant must be either a Salaried employee, government employee, MNC employee, businessman, or self-employed, such as a doctor, CA, or lawyer.• Applicants with Cash Salary will not be approved"
+            },
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Travel",
+        "image": "https://i.ibb.co/RbkVWY4/10008.png",
+        "questions": [
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            },
+            {
+                "question": "What are the eligibility criteria for getting an instant loan?",
+                "ans": "Although different lending partners have different eligibility criteria for approving an instant loan, however a few of the eligibility criteria are:• The age of the applicant should be in between 23-57 years.• The applicant must have valid income proof as per the city requirement.• The applicant must be either a Salaried employee, government employee, MNC employee, businessman, or self-employed, such as a doctor, CA, or lawyer.• Applicants with Cash Salary will not be approved"
+            },
+            {
+                "question": "Am I eligible for a personal loan?",
+                "ans": "If your credit score is good and your documents are authentic, you are eligible for an instant loan amount against your income proof."
+            },
+            {
+                "question": "Can I choose the lender?",
+                "ans": "No, you cannot choose the lender. However, our application shortlists the most relevant lending partner as per your requirements and forwards your application. Rupeezo will notify the customer with the lending partners name from where the loan amount is approved and post that the customer can choose from where to borrow."
+            },
+            {
+                "question": "When is the right time to apply for an instant personal loan?",
+                "ans": "You can apply any day for an instant personal loan. It depends upon your requirements, and you do not need to give any reason for seeking a personal loan."
+            },
+            {
+                "question": "How can I get the approved loans?",
+                "ans": "It is easy. Fill in all your details at our website or App, and you will get instant notification within few minutes."
+            }
+        ]
+    }
+]
