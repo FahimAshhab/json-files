@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Personal",
         "image": "https://i.ibb.co/d0kz3wr/10002.png",
         "questions": [
@@ -43,7 +43,7 @@
         ]
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Business",
         "image": "https://i.ibb.co/wcJZVHM/10003.png",
         "questions": [
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "Vehicle",
         "image": "https://i.ibb.co/f9NBQ1P/10004.png",
         "questions": [
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "Medical ",
         "image": "https://i.ibb.co/N2TpVqt/10005.png",
         "questions": [
@@ -156,7 +156,7 @@
         ]
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "Wedding",
         "image": "https://i.ibb.co/mDY9JZB/10006.png",
         "questions": [
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "6",
+        "id": 6,
         "name": "Education",
         "image": "https://i.ibb.co/3CHLTry/10007.png",
         "questions": [
@@ -242,7 +242,7 @@
         ]
     },
     {
-        "id": "7",
+        "id": 7,
         "name": "Travel",
         "image": "https://i.ibb.co/RbkVWY4/10008.png",
         "questions": [
