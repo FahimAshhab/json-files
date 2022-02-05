@@ -83,7 +83,7 @@
         "id": 3,
         "name": "Vehicle",
         "image": "https://i.ibb.co/f9NBQ1P/10004.png",
-        "btnText": "Book A Vehicle",
+        "btnText": "Book Vehicle",
         "questions": [
             {
                 "question": "What is the best time to apply for a vehicle loan?",
