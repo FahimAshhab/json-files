@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Personal",
         "image": "https://i.ibb.co/d0kz3wr/10002.png",
+        "btnText": "Get Money",
         "questions": [
             {
                 "question": "Am I eligible for a personal loan?",
@@ -46,6 +47,7 @@
         "id": 2,
         "name": "Business",
         "image": "https://i.ibb.co/wcJZVHM/10003.png",
+        "btnText": "Expand Business",
         "questions": [
             {
                 "question": "Am I eligible for the Business Loan?",
@@ -81,6 +83,7 @@
         "id": 3,
         "name": "Vehicle",
         "image": "https://i.ibb.co/f9NBQ1P/10004.png",
+       " btnText": "Book a vehicle",
         "questions": [
             {
                 "question": "What is the best time to apply for a vehicle loan?",
@@ -116,6 +119,7 @@
         "id": 4,
         "name": "Medical ",
         "image": "https://i.ibb.co/N2TpVqt/10005.png",
+         "btnText": "Get a Loan",
         "questions": [
             {
                 "question": "Am I eligible for a personal loan?",
@@ -159,6 +163,7 @@
         "id": 5,
         "name": "Wedding",
         "image": "https://i.ibb.co/mDY9JZB/10006.png",
+       "btnText": "Plan a Wedding",
         "questions": [
             {
                 "question": "Am I eligible for a personal loan?",
@@ -202,6 +207,7 @@
         "id": 6,
         "name": "Education",
         "image": "https://i.ibb.co/3CHLTry/10007.png",
+        "btnText": "Persue a Course",
         "questions": [
             {
                 "question": "Am I eligible for a personal loan?",
@@ -245,6 +251,7 @@
         "id": 7,
         "name": "Travel",
         "image": "https://i.ibb.co/RbkVWY4/10008.png",
+        "btnText": "Plan a Travel",
         "questions": [
             {
                 "question": "Am I eligible for a personal loan?",
