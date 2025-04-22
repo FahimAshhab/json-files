@@ -3,16 +3,16 @@
         "DeviceID": "Device_1",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -20,16 +20,12 @@
         "DeviceID": "Device_2",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -37,7 +33,7 @@
         "DeviceID": "Device_3",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -46,16 +42,8 @@
         "DeviceID": "Device_4",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
-            },
-            {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -63,16 +51,16 @@
         "DeviceID": "Device_5",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "ICSL3",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -80,12 +68,12 @@
         "DeviceID": "Device_6",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -94,15 +82,15 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "accessStatus": ""
             },
             {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -110,15 +98,7 @@
         "DeviceID": "Device_8",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -126,6 +106,10 @@
     {
         "DeviceID": "Device_9",
         "AccessMethods": [
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
@@ -140,12 +124,8 @@
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
             }
         ]
     },
@@ -153,14 +133,26 @@
         "DeviceID": "Device_11",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "SSH",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
     {
         "DeviceID": "Device_12",
         "AccessMethods": [
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": ""
@@ -173,6 +165,10 @@
             {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -180,8 +176,12 @@
         "DeviceID": "Device_14",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -189,8 +189,8 @@
         "DeviceID": "Device_15",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -198,12 +198,16 @@
         "DeviceID": "Device_16",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -211,15 +215,7 @@
         "DeviceID": "Device_17",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -229,14 +225,14 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "SSH",
                 "accessStatus": ""
             }
         ]
@@ -245,12 +241,16 @@
         "DeviceID": "Device_19",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
             }
         ]
     },
@@ -258,7 +258,15 @@
         "DeviceID": "Device_20",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -267,16 +275,16 @@
         "DeviceID": "Device_21",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
                 "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
             }
         ]
     },
@@ -284,12 +292,12 @@
         "DeviceID": "Device_22",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -297,12 +305,8 @@
         "DeviceID": "Device_23",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "ICSL2",
@@ -314,8 +318,16 @@
         "DeviceID": "Device_24",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": ""
             }
         ]
     },
@@ -323,8 +335,16 @@
         "DeviceID": "Device_25",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
             }
         ]
     },
@@ -332,16 +352,12 @@
         "DeviceID": "Device_26",
         "AccessMethods": [
             {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -349,7 +365,15 @@
         "DeviceID": "Device_27",
         "AccessMethods": [
             {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "ICSL2",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -359,10 +383,6 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
                 "accessStatus": ""
             }
         ]
@@ -371,8 +391,8 @@
         "DeviceID": "Device_29",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -380,12 +400,16 @@
         "DeviceID": "Device_30",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "ICSL2",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -393,12 +417,8 @@
         "DeviceID": "Device_31",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -406,7 +426,11 @@
         "DeviceID": "Device_32",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -415,8 +439,16 @@
         "DeviceID": "Device_33",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -425,7 +457,15 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -433,8 +473,12 @@
         "DeviceID": "Device_35",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -442,12 +486,8 @@
         "DeviceID": "Device_36",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -455,12 +495,16 @@
         "DeviceID": "Device_37",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "SSH",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
             }
         ]
     },
@@ -468,8 +512,16 @@
         "DeviceID": "Device_38",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -477,15 +529,7 @@
         "DeviceID": "Device_39",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -494,8 +538,12 @@
         "DeviceID": "Device_40",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -503,7 +551,11 @@
         "DeviceID": "Device_41",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
             }
         ]
@@ -512,11 +564,15 @@
         "DeviceID": "Device_42",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -525,12 +581,8 @@
         "DeviceID": "Device_43",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -538,8 +590,8 @@
         "DeviceID": "Device_44",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -547,11 +599,20 @@
         "DeviceID": "Device_45",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
+            }
+        ]
+    },
+    {
+        "DeviceID": "Device_46",
+        "AccessMethods": [
             {
                 "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": ""
             },
             {
@@ -561,24 +622,11 @@
         ]
     },
     {
-        "DeviceID": "Device_46",
-        "AccessMethods": [
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
-            }
-        ]
-    },
-    {
         "DeviceID": "Device_47",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -587,11 +635,11 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
+                "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -599,8 +647,12 @@
         "DeviceID": "Device_49",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": ""
             }
         ]
     },
@@ -609,11 +661,15 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -621,11 +677,11 @@
         "DeviceID": "Device_51",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -634,12 +690,12 @@
         "DeviceID": "Device_52",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
+                "AccessMethodType": "ICSL3",
+                "accessStatus": ""
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "HTTP",
@@ -651,8 +707,16 @@
         "DeviceID": "Device_53",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -660,11 +724,11 @@
         "DeviceID": "Device_54",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -673,12 +737,8 @@
         "DeviceID": "Device_55",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -686,8 +746,16 @@
         "DeviceID": "Device_56",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -696,7 +764,15 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -704,30 +780,8 @@
         "DeviceID": "Device_58",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            }
-        ]
-    },
-    {
-        "DeviceID": "Device_59",
-        "AccessMethods": [
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            }
-        ]
-    },
-    {
-        "DeviceID": "Device_60",
-        "AccessMethods": [
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "ICSL2",
@@ -736,15 +790,41 @@
         ]
     },
     {
-        "DeviceID": "Device_61",
+        "DeviceID": "Device_59",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            }
+        ]
+    },
+    {
+        "DeviceID": "Device_60",
+        "AccessMethods": [
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
+            }
+        ]
+    },
+    {
+        "DeviceID": "Device_61",
+        "AccessMethods": [
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -756,7 +836,11 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": ""
             }
         ]
@@ -765,12 +849,12 @@
         "DeviceID": "Device_63",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -778,7 +862,11 @@
         "DeviceID": "Device_64",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -787,12 +875,8 @@
         "DeviceID": "Device_65",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -800,12 +884,16 @@
         "DeviceID": "Device_66",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": ""
             }
         ]
     },
@@ -813,16 +901,12 @@
         "DeviceID": "Device_67",
         "AccessMethods": [
             {
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
+            },
+            {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
             }
         ]
     },
@@ -836,6 +920,10 @@
             {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
             }
         ]
     },
@@ -843,15 +931,7 @@
         "DeviceID": "Device_69",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -862,14 +942,6 @@
             {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
             }
         ]
     },
@@ -877,8 +949,16 @@
         "DeviceID": "Device_71",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "ICSL3",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -886,12 +966,8 @@
         "DeviceID": "Device_72",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -899,8 +975,12 @@
         "DeviceID": "Device_73",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -908,8 +988,16 @@
         "DeviceID": "Device_74",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": ""
             }
         ]
     },
@@ -917,16 +1005,8 @@
         "DeviceID": "Device_75",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
             }
         ]
     },
@@ -934,16 +1014,16 @@
         "DeviceID": "Device_76",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
             }
         ]
     },
@@ -951,11 +1031,11 @@
         "DeviceID": "Device_77",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "SSH",
+                "accessStatus": ""
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
                 "accessStatus": ""
             }
         ]
@@ -964,15 +1044,7 @@
         "DeviceID": "Device_78",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -981,8 +1053,16 @@
         "DeviceID": "Device_79",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": ""
             }
         ]
     },
@@ -991,7 +1071,7 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "RDP",
@@ -1003,8 +1083,16 @@
         "DeviceID": "Device_81",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1013,15 +1101,11 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "ICSL2",
                 "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
             }
         ]
     },
@@ -1029,11 +1113,11 @@
         "DeviceID": "Device_83",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1042,8 +1126,12 @@
         "DeviceID": "Device_84",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1051,7 +1139,15 @@
         "DeviceID": "Device_85",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1060,8 +1156,8 @@
         "DeviceID": "Device_86",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "HTTP",
+                "accessStatus": ""
             }
         ]
     },
@@ -1069,16 +1165,8 @@
         "DeviceID": "Device_87",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1086,16 +1174,16 @@
         "DeviceID": "Device_88",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1103,8 +1191,12 @@
         "DeviceID": "Device_89",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "ICSL2",
                 "accessStatus": ""
+            },
+            {
+                "AccessMethodType": "ICSL2",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1112,8 +1204,8 @@
         "DeviceID": "Device_90",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1121,12 +1213,8 @@
         "DeviceID": "Device_91",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1134,12 +1222,16 @@
         "DeviceID": "Device_92",
         "AccessMethods": [
             {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1147,7 +1239,15 @@
         "DeviceID": "Device_93",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": ""
             }
         ]
@@ -1156,12 +1256,16 @@
         "DeviceID": "Device_94",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1169,8 +1273,12 @@
         "DeviceID": "Device_95",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1179,30 +1287,8 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
                 "accessStatus": "deviceMFACodeRequired"
-            }
-        ]
-    },
-    {
-        "DeviceID": "Device_97",
-        "AccessMethods": [
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "needAuthorization"
-            }
-        ]
-    },
-    {
-        "DeviceID": "Device_98",
-        "AccessMethods": [
+            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": ""
@@ -1210,11 +1296,37 @@
         ]
     },
     {
-        "DeviceID": "Device_99",
+        "DeviceID": "Device_97",
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
+            }
+        ]
+    },
+    {
+        "DeviceID": "Device_98",
+        "AccessMethods": [
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            }
+        ]
+    },
+    {
+        "DeviceID": "Device_99",
+        "AccessMethods": [
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "ICSL3",
+                "accessStatus": ""
             },
             {
                 "AccessMethodType": "ICSL3",
@@ -1227,15 +1339,11 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
-            },
-            {
-                "AccessMethodType": "RDP",
                 "accessStatus": ""
             },
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "needAuthorization"
+                "AccessMethodType": "ICSL3",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     }
