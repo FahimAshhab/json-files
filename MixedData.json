@@ -3,8 +3,8 @@
         "DeviceID": "Device_1",
         "AccessMethods": [
             {
-                "AccessMethodType": "VNC",
-                "accessStatus": "deviceMFACodeRequired"
+                "AccessMethodType": "ICSL3",
+                "accessStatus": ""
             },
             {
                 "AccessMethodType": "TELNET",
