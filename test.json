@@ -3,7 +3,7 @@
         "DeviceID": "Device_1",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "sdsds",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
