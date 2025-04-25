@@ -3,15 +3,15 @@
         "DeviceID": "Device_1",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -20,11 +20,11 @@
         "DeviceID": "Device_2",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -33,7 +33,15 @@
         "DeviceID": "Device_3",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -41,6 +49,10 @@
     {
         "DeviceID": "Device_4",
         "AccessMethods": [
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
@@ -51,15 +63,15 @@
         "DeviceID": "Device_5",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -68,11 +80,15 @@
         "DeviceID": "Device_6",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -81,15 +97,11 @@
         "DeviceID": "Device_7",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -98,7 +110,15 @@
         "DeviceID": "Device_8",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -107,11 +127,11 @@
         "DeviceID": "Device_9",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -120,12 +140,8 @@
         "DeviceID": "Device_10",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -133,11 +149,7 @@
         "DeviceID": "Device_11",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -146,16 +158,8 @@
         "DeviceID": "Device_12",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -163,11 +167,7 @@
         "DeviceID": "Device_13",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -176,11 +176,7 @@
         "DeviceID": "Device_14",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -189,7 +185,11 @@
         "DeviceID": "Device_15",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -198,15 +198,7 @@
         "DeviceID": "Device_16",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -217,6 +209,14 @@
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -224,16 +224,16 @@
         "DeviceID": "Device_18",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -241,16 +241,16 @@
         "DeviceID": "Device_19",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
             }
         ]
     },
@@ -260,14 +260,6 @@
             {
                 "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -275,16 +267,8 @@
         "DeviceID": "Device_21",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
             }
         ]
     },
@@ -292,7 +276,7 @@
         "DeviceID": "Device_22",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
@@ -305,11 +289,15 @@
         "DeviceID": "Device_23",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -318,16 +306,12 @@
         "DeviceID": "Device_24",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -343,8 +327,8 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -352,11 +336,11 @@
         "DeviceID": "Device_26",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -365,15 +349,7 @@
         "DeviceID": "Device_27",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -382,8 +358,12 @@
         "DeviceID": "Device_28",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -391,7 +371,15 @@
         "DeviceID": "Device_29",
         "AccessMethods": [
             {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -400,15 +388,7 @@
         "DeviceID": "Device_30",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -417,7 +397,7 @@
         "DeviceID": "Device_31",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -432,20 +412,16 @@
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
     {
         "DeviceID": "Device_33",
         "AccessMethods": [
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
-            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
@@ -460,11 +436,11 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -473,11 +449,7 @@
         "DeviceID": "Device_35",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -488,6 +460,14 @@
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -495,16 +475,12 @@
         "DeviceID": "Device_37",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -512,15 +488,15 @@
         "DeviceID": "Device_38",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "SSH",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -531,6 +507,10 @@
             {
                 "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -538,11 +518,7 @@
         "DeviceID": "Device_40",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -551,12 +527,12 @@
         "DeviceID": "Device_41",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -564,15 +540,7 @@
         "DeviceID": "Device_42",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -581,7 +549,7 @@
         "DeviceID": "Device_43",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -590,7 +558,11 @@
         "DeviceID": "Device_44",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -600,7 +572,11 @@
         "AccessMethods": [
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -608,15 +584,11 @@
         "DeviceID": "Device_46",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -625,7 +597,11 @@
         "DeviceID": "Device_47",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -634,11 +610,15 @@
         "DeviceID": "Device_48",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -647,12 +627,8 @@
         "DeviceID": "Device_49",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
             }
         ]
     },
@@ -660,15 +636,11 @@
         "DeviceID": "Device_50",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -677,11 +649,15 @@
         "DeviceID": "Device_51",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -690,16 +666,12 @@
         "DeviceID": "Device_52",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -707,15 +679,11 @@
         "DeviceID": "Device_53",
         "AccessMethods": [
             {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -724,11 +692,7 @@
         "DeviceID": "Device_54",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -737,7 +701,11 @@
         "DeviceID": "Device_55",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -746,15 +714,15 @@
         "DeviceID": "Device_56",
         "AccessMethods": [
             {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -763,15 +731,7 @@
         "DeviceID": "Device_57",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -780,11 +740,7 @@
         "DeviceID": "Device_58",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -793,11 +749,15 @@
         "DeviceID": "Device_59",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -806,12 +766,12 @@
         "DeviceID": "Device_60",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -819,11 +779,15 @@
         "DeviceID": "Device_61",
         "AccessMethods": [
             {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -832,16 +796,16 @@
         "DeviceID": "Device_62",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -849,11 +813,15 @@
         "DeviceID": "Device_63",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -862,11 +830,11 @@
         "DeviceID": "Device_64",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -874,6 +842,10 @@
     {
         "DeviceID": "Device_65",
         "AccessMethods": [
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
@@ -884,16 +856,12 @@
         "DeviceID": "Device_66",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
             }
         ]
     },
@@ -901,11 +869,11 @@
         "DeviceID": "Device_67",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -914,22 +882,30 @@
         "DeviceID": "Device_68",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
     {
         "DeviceID": "Device_69",
         "AccessMethods": [
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
@@ -940,7 +916,11 @@
         "DeviceID": "Device_70",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -949,15 +929,11 @@
         "DeviceID": "Device_71",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -966,7 +942,7 @@
         "DeviceID": "Device_72",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -975,11 +951,11 @@
         "DeviceID": "Device_73",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -992,12 +968,12 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1005,7 +981,7 @@
         "DeviceID": "Device_75",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1014,15 +990,11 @@
         "DeviceID": "Device_76",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1031,12 +1003,16 @@
         "DeviceID": "Device_77",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
                 "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1044,7 +1020,15 @@
         "DeviceID": "Device_78",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1053,16 +1037,12 @@
         "DeviceID": "Device_79",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "RDP",
-                "accessStatus": ""
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1070,12 +1050,8 @@
         "DeviceID": "Device_80",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": ""
             }
         ]
     },
@@ -1083,15 +1059,15 @@
         "DeviceID": "Device_81",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1100,12 +1076,8 @@
         "DeviceID": "Device_82",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
             }
         ]
     },
@@ -1113,11 +1085,11 @@
         "DeviceID": "Device_83",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1126,11 +1098,15 @@
         "DeviceID": "Device_84",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1138,14 +1114,6 @@
     {
         "DeviceID": "Device_85",
         "AccessMethods": [
-            {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": "deviceMFACodeRequired"
-            },
             {
                 "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
@@ -1156,14 +1124,22 @@
         "DeviceID": "Device_86",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
     {
         "DeviceID": "Device_87",
         "AccessMethods": [
+            {
+                "AccessMethodType": "SSH",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
             {
                 "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
@@ -1178,10 +1154,6 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
                 "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
@@ -1191,11 +1163,11 @@
         "DeviceID": "Device_89",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1204,7 +1176,15 @@
         "DeviceID": "Device_90",
         "AccessMethods": [
             {
+                "AccessMethodType": "HTTP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
                 "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1213,7 +1193,11 @@
         "DeviceID": "Device_91",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1222,15 +1206,15 @@
         "DeviceID": "Device_92",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1243,12 +1227,12 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "HTTP",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "SSH",
-                "accessStatus": ""
+                "AccessMethodType": "RDP",
+                "accessStatus": "deviceMFACodeRequired"
             }
         ]
     },
@@ -1256,15 +1240,7 @@
         "DeviceID": "Device_94",
         "AccessMethods": [
             {
-                "AccessMethodType": "HTTP",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "SSH",
-                "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1277,7 +1253,7 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1286,12 +1262,8 @@
         "DeviceID": "Device_96",
         "AccessMethods": [
             {
-                "AccessMethodType": "RDP",
+                "AccessMethodType": "SSH",
                 "accessStatus": "deviceMFACodeRequired"
-            },
-            {
-                "AccessMethodType": "HTTP",
-                "accessStatus": ""
             }
         ]
     },
@@ -1299,7 +1271,11 @@
         "DeviceID": "Device_97",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
+            },
+            {
+                "AccessMethodType": "RDP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1308,7 +1284,7 @@
         "DeviceID": "Device_98",
         "AccessMethods": [
             {
-                "AccessMethodType": "SSH",
+                "AccessMethodType": "TELNET",
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
@@ -1325,11 +1301,11 @@
                 "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
-                "accessStatus": ""
+                "AccessMethodType": "TELNET",
+                "accessStatus": "deviceMFACodeRequired"
             },
             {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "VNC",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
@@ -1338,11 +1314,7 @@
         "DeviceID": "Device_100",
         "AccessMethods": [
             {
-                "AccessMethodType": "ICSL2",
-                "accessStatus": ""
-            },
-            {
-                "AccessMethodType": "ICSL3",
+                "AccessMethodType": "HTTP",
                 "accessStatus": "deviceMFACodeRequired"
             }
         ]
